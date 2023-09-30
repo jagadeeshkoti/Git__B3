@@ -3,18 +3,18 @@ package Test_Scripts;
 import org.testng.annotations.Test;
 
 public class ThoofanTest {
-@Test
+@Test(groups = "smoke")
 public void ttest() {
 	System.out.println("Destiny");
 }
 	
-	@Test
+	@Test(groups = "regression")
 	public void ttest1() {
 		System.out.println("Reached");
 	}
 		
 		
-		@Test
+		@Test(groups = "smoke")
 		public void ttest2() {
 			System.out.println("Reached Done");
 		
