@@ -5,6 +5,6 @@ import org.testng.annotations.Test;
 public class DemoTest {
 @Test
 public void Dtest() {
-	System.out.println("succes");
+	System.out.println("succesfull");
 }
 }
